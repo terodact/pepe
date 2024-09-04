@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'jost',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgba(245, 245, 245, 0.836);
+    font-family: century;
+    cursor: pointer;
+ }
+ center{
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    transform: translate(-50%,-50%);
+    font-family: arial;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+ }
+ span{
+       color:  rgb(86, 86, 240);
+       font-weight: bold;
+ }
+ /*le logo*/
+ .DB{
+    margin: 50px;
+    font-family: arial black;
+    font-size: larger;
+ }
+ .logo a{
+    color: whitesmoke;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: century;
+    background-color: whitesmoke;
+ }
+ .logo span{
+    color: black;
+    font-weight: bold;
+ }
+ /*header*/
+ header{
+    background-color:  rgb(86, 86, 240);
+     position: fixed;
+     width: 100%;
+     top: 0;
+     right: 0;
+     z-index: 1000;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 10%;
+     box-shadow: 50px;
+ }
+  /*menu (home..)*/
+  .navmenu{
+     display: flex;
+  }
+  .navmenu div{
+     background-color: whitesmoke;
+     border: 2px solid transparent;
+  }
+  .navmenu a{
+     color:  black;
+     font-size: 16px;
+     text-transform: capitalize;
+     padding: 10px 20px;
+     font-weight: 400;
+     transition: all .42s ease;
+  }
+  .navmenu a:hover{
+      border: 1px solid black;
+      margin: 20px;
+      color: black;
+  }
+  /*l'inscription */
+ .nav-inscription{
+   border: 1px solid transparent;
+   background-color: white;
+ }
+ .nav-inscription img{
+    display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 4%;
+    margin: 17px;
+    width: 26px;
+ }
+ .nav-inscription p{
+    color: black;
+    font-size: 15px;
+ }
+  /*video du header et les diffenrents titre*/
+  /*video du header*/
+.bloc video{
+   position: absolute;
+   min-height: 90%;
+   min-width: 100%;
+   margin-top: 33%;
+   left: 50%;
+   z-index: -100;
+   transform: translate(-50%,-50%);
+}
+/*les diffenrents titre */
+ .titre-A{
+   position: absolute;
+   left: 50%;
+   top: 40%;
+   transform: translate(-50%,-50%);
+   color:  black;
+    font-family: arial;
+    font-size: 1rem;
+ }
+ .titre-B{
+   position: absolute;
+   left: 50%;
+   top: 48%;
+   transform: translate(-50%,-50%);
+   color:  black;
+    font-family: arial;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+ }
+
+   .titre-C{
+      position: absolute;
+      left: 50%;
+      top: 55%;
+      transform: translate(-50%,-50%);
+      color: black;
+      font-size: 22px;
+  }
+ .titre-E{
+   position: absolute;
+   left: 50%;
+   top: 57%;
+   transform: translate(-50%,-50%);
+   color: black;
+   font-size: 22px;
+}
+.bloc span{
+   color:  rgb(86, 86, 240);
+}
+
+/*Nos produits*/
+ /* texte Nos produits*/
+.texte{
+   position: absolute;
+   left: 50%;
+   top: 20cm;
+   transform: translate(-50%,-50%);
+   color: black;
+   font-size: 22px;
+}
+.slogan{
+   position: absolute;
+   left: 50%;
+   top: 21cm;
+   transform: translate(-50%,-50%);
+   color: black;
+   font-size: 22px;
+}
+/*image et disposition*/
+.image1{
+   margin-left: 2%;
+    margin-top: 73%;
+ }
+ .image2{
+   margin-left: 36.5%;
+    margin-top:-49%;
+ }
+ .image3{
+   margin-left: 67%;
+    margin-top: -48.5%;
+ }
+ .image4{
+   margin-left: 2%;
+    margin-top:  10%;
+ }
+ .image5{
+    margin-left: 38%;
+    margin-top:  -48.5%;
+ }
+ .image6{
+    margin-left: 69%;
+    margin-top:  -51.5%;
+ }
+ .image-6-A-12{
+   margin-top: 3%;
+ }
+ .image-13-A-18{
+   margin-top: 8%;
+ }
+  /*texte rayon homme et femme */
+  .image-tout .texte-h3-2{
+   position: absolute;
+   left: 50%;
+   top: 22cm;
+   transform: translate(-50%,-50%);
+   color: black;
+   font-size: 22px;
+}
+.image-tout .texte-h3-3{
+   position: absolute;
+   left: 50%;
+   top: 56.5cm;
+   transform: translate(-50%,-50%);
+   color: black;
+   font-size: 22px;
+   margin-top: 12%;
+}
+.image-tout .texte-h3-4{
+   position: absolute;
+   left: 50%;
+   top: 92.4cm;
+   transform: translate(-50%,-50%);
+   color: black;
+   font-size: 22px;
+   margin-top: 21%;
+}
+  /*fin*/
+ .image7{
+   margin-left: 2%;
+    margin-top: 15%;
+ }
+ .image8{
+   margin-left: 37%;
+   margin-top:  -49%;
+}
+.image9{
+   margin-left: 68%;
+    margin-top: -50%;
+ }
+ .image10{
+   margin-left: 2%;
+    margin-top: 7.5%;
+ }
+ .image11{
+   margin-left: 37%;
+   margin-top:  -50%;
+}
+.image12{
+   margin-left: 68%;
+    margin-top: -48%;
+ }
+ .image13{
+   margin-left: 2%;
+    margin-top: 17%;
+ }
+ .image14{
+   margin-left: 36%;
+   margin-top:  -49%;
+}
+.image15{
+   margin-left: 69%;
+    margin-top: -48%;
+ }
+ .image16{
+   margin-left: 2%;
+    margin-top: 7%;
+ }
+ .image17{
+   margin-left: 36%;
+   margin-top:  -49%;
+}
+.image18{
+   margin-left: 69%;
+    margin-top: -49%;
+ }
+ .image19{
+   margin-left: 2%;
+    margin-top: 10%;
+ }
+ .image20{
+   margin-left: 36.5%;
+    margin-top:-48%;
+ }
+ .image21{
+   margin-left: 67%;
+    margin-top: -49%;
+ }
+ /* le div de tout les image*/
+ .image-tout{
+    margin-top: 2%;
+ }
+.image-tout p{
+   margin-left: 3%;
+}
+.image-tout img{
+   width: 9cm;
+   height: 14cm;
+   padding: 10px 20px;
+   transition: all .42s ease;
+   display: flex;
+}
+.image-tout img:hover{
+    background-color:  rgb(86, 86, 240);
+    margin: 17px;
+}
+ /*pied de page*/
+/*corp du footer*/
+footer {
+   margin-top: 4%;
+   flex-shrink: 0;
+   border-top: 2px dashed #000;
+   width: 100%;
+   background-color:  rgb(230, 230, 233);
+   color: #000;
+}
+/*pour tout les elements a du footer*/
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+/*pour tout les elements h3 du footer*/
+footer h3{
+  padding-bottom: 20px ;
+}
+/*pour tout les bloc du footer*/
+footer .bloc {
+  width: 40%;
+  margin: 0 7px;
+}
+/*la class contenu du footer*/
+.contenu-footer{
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 17px;
+  padding: 20px 0px 20px;
+}
+/*coleur email*/
+footer .email{
+  color: rgb(86, 86, 240);
+}
+footer .contact p{
+  padding: 5px O;
+}
+/*les media*/
+.liste-media {
+  position: relative;
+  right: 10px;
+}
+.liste-media img{
+  width: 40px;
+  margin: 10px 10px;
+}
+.liste-media a{
+  display: flex;
+  align-items: center;
+}
+/*la date*/
+#date
+{
+  background: rgb(86, 86, 240);
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+   padding-left: 600px;
+   width: 750px;  
+}

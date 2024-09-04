@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'jost',sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: rgba(245, 245, 245, 0.836);
+  font-family: century;
+  cursor: pointer;
+}
+center{
+  position: absolute;
+  left: 50%;
+  top: 16%;
+  transform: translate(-50%,-50%);
+  font-family: arial;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+span{
+     color:  rgb(86, 86, 240);
+     font-weight: bold;
+}
+/*le logo*/
+.DB{
+  margin: 50px;
+  font-family: arial black;
+  font-size: larger;
+}
+.logo a{
+  color: whitesmoke;
+  padding: 0px 20px;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: century;
+  background-color: whitesmoke;
+}
+.logo span{
+  color: black;
+  font-weight: bold;
+}
+/*header*/
+header{
+  background-color:  rgb(86, 86, 240);
+   position: fixed;
+   width: 100%;
+   top: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 10%;
+   box-shadow: 50px;
+}
+/*menu (home..)*/
+.navmenu{
+   display: flex;
+}
+.navmenu div{
+   background-color: whitesmoke;
+   border: 2px solid transparent;
+}
+.navmenu a{
+   color:  black;
+   font-size: 16px;
+   text-transform: capitalize;
+   padding: 10px 20px;
+   font-weight: 400;
+   transition: all .42s ease;
+}
+.navmenu a:hover{
+    border: 1px solid black;
+    margin: 20px;
+    color: black;
+}
+/*l'inscription */
+.nav-inscription{
+ border: 1px solid transparent;
+ background-color: white;
+}
+.nav-inscription img{
+  display: inline-block;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 4%;
+  margin: 17px;
+  width: 26px;
+}
+.nav-inscription p{
+  color: black;
+  font-size: 15px;
+}
+/* menu avec image du header*/
+.image img{
+  margin-top: 7.5%;
+  width: 32cm;
+  height: 11cm;
+}
+/*texte de l'image du header*/
+.texte-photo1 h3{
+ margin-left: 13%;
+ top: 50%;
+  left: 30%;
+  margin-top: -12%;
+  font-size: 2.5rem;
+}
+.texte-photo1 h2{
+ margin-left: 13%;
+ top: 50%;
+ margin: 13%;
+  left: 30%;
+  margin-top: -15%;
+}
+/*premier texte*/
+.texte1 .p1{
+  font-size: 1.5rem;
+  margin: 3%; 
+ margin-top: 4%;
+}
+.texte1 .p2{
+ font-size: 1.5rem;
+ margin: 3%; 
+margin-top: 3%;
+}
+.texte1 h4{
+ font-size: 1.5rem;
+ margin: 3%; 
+margin-top: 5%;
+}
+/*le texte apres photo*/
+.texte-apres-photo{
+   font-size: 1.5rem;
+   text-align: center;
+}
+.texte-apres-photo a{
+   border: 1px solid   rgb(86, 86, 240);
+   text-decoration: none;
+   color:  rgb(86, 86, 240);
+   font-size: 1.5rem;
+}
+/*notre contact*/
+.partie{
+ margin-top: 4%;
+ text-align: center;
+ 
+}
+.partie1{
+ font-size: 2rem;
+ text-align: center;
+}
+/*video de page*/
+.video2 {
+ margin-top: 1%;
+ text-align: center;
+}
+.video2 video{
+ height: 2%;
+ width: 100vh;
+ text-align: center;
+}
+/*pied de page*/
+   /*corp du footer*/
+footer {
+ margin-top: 2.5%;
+ flex-shrink: 0;
+ border-top: 2px dashed #000;
+ width: 100%;
+ background-color:  rgb(230, 230, 233);
+ color: #000;
+}
+/*pour tout les elements a du footer*/
+footer a {
+text-decoration: none;
+color: #000;
+}
+/*pour tout les elements h3 du footer*/
+footer h3{
+padding-bottom: 20px ;
+}
+/*pour tout les bloc du footer*/
+footer .bloc {
+width: 40%;
+margin: 0 7px;
+}
+/*la class contenu du footer*/
+.contenu-footer{
+width: 900px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+font-size: 17px;
+padding: 20px 0px 20px;
+}
+/*coleur email*/
+footer .email{
+color: rgb(86, 86, 240);
+}
+footer .contact p{
+padding: 5px O;
+}
+/*les media*/
+.liste-media {
+position: relative;
+right: 10px;
+}
+.liste-media img{
+width: 40px;
+margin: 10px 10px;
+}
+.liste-media a{
+display: flex;
+align-items: center;
+}
+/*la date*/
+#date
+{
+background: rgb(86, 86, 240);
+display: flex;
+color: white;
+flex-wrap: wrap;
+ padding-left: 600px;
+ width: 750px;  
+}
